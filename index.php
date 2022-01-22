@@ -44,12 +44,12 @@
             }
         </style>
         -->
-        <div style="height:780px; width:1280px; overflow: hidden;">
+        <div style="height:720px; width:1280px; overflow: hidden;">
             <iframe width="1280"
                 src="https://www.youtube.com/embed/<?php echo htmlspecialchars($_GET['id']); 
                     ?>?theme=dark&autoplay=1&autohide=0&cc_load_policy=1&modestbranding=1&fs=0&showinfo=0&rel=0&iv_load_policy=3&mute=0&loop=1"   
                 allowfullscreen
-                style="height:780px;  background:#000000; bottom: 60px; position: relative;"  
+                style="height:720px;  background:#000000; bottom: 0px; position: relative;"  
                 sandbox="allow-forms allow-scripts allow-pointer-lock allow-same-origin allow-top-navigation">
             </iframe>
         </div>
