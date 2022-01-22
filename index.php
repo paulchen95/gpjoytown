@@ -44,8 +44,8 @@
             }
         </style>
         -->
-        <div style="height:400px; width:400px; overflow: hidden;">
-            <iframe width="464" height="316"
+        <div style="height:464px; width:316px; overflow: hidden;">
+            <iframe width="464"
                 src="https://www.youtube.com/embed/<?php echo htmlspecialchars($_GET['id']); 
                     ?>?theme=dark&autoplay=1&autohide=0&cc_load_policy=1&modestbranding=1&fs=0&showinfo=0&rel=0&iv_load_policy=3&mute=0&loop=1"   
                 style="height:400px;  background:#000000; bottom: 60px; position: relative;"  
